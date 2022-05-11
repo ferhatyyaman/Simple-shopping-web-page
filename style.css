@@ -1,0 +1,181 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainflex{
+    border: 1px solid black;
+    width: 1400px;
+    height: 700px;
+    display: flex;
+    margin: 10px;
+    border-radius: 3px;
+    flex-direction: column;
+    
+    
+}   
+.text{
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex1{
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+    
+}
+.search{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+#text-search{
+    float: right;
+    background: none;
+    border: none;
+    outline: none;
+}
+.text-icon{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.basket{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.cart-btn{
+    float: right;
+    position: relative;
+    left: 1050px;
+    
+}
+.flexs{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    
+}
+.flex2{
+    border: 1px solid black;
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    height: 550px;
+}
+.flex3{
+    border: 1px solid black;
+    display: flex;
+    margin: 10px;
+    width: 1050px;
+    height: 550px; 
+    overflow: scroll;
+    
+}
+.container{
+    margin: 10px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+
+.shopping-cart{
+    display: flex;
+    flex-direction: column;
+   
+}
+.cart-list-item{
+    display: flex;
+    border: 1px solid black;
+   
+}
+.cart-left{
+    display: flex;
+    float: left;
+    margin: 10px;
+    
+}
+.cart-right{
+    display: flex;
+    align-items:center;
+}
+.cart-left-image{
+    margin: 20px;
+    align-items: center;
+    
+}
+.cart-left-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.shopping-cart-bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin: 50px;
+    
+}
+.cart-left-image{
+    height: 50px;
+    width: 50px;
+}
+.btn-clear{
+    border: 1px solid black;
+    background-color: orange;
+    border-radius: 50;
+    height: 50px;
+    width: 300px;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+
+}
+.card-img-top{
+    height: 350px;
+}
+.card{
+    height: 550px;
+}
+#filter-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.buttonCategory{
+    margin: 20px;
+    height: 80px;
+    width: 250px;
+    background-color: white;
+}
+
